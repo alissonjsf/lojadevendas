@@ -1,0 +1,65 @@
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Lançar Estoque</title>
+      <link  rel="stylesheet" href="alisson2style.css"/>
+   </head>
+   <body>
+    
+      <h1>Lançar Estoque</h1>
+      <div class="base">
+        <form>
+            <div class="linha1">
+                <label>Produto</label>
+                <input type="nome">
+                <label>Mínimo</label>
+                <input type="number">
+                <label>Entradas</label>
+                <input type="number">
+                <label>Saídas</label>
+                <input type="number">
+            </div>
+            <div class="linha2">
+                <label>Categoria</label>
+            <select name="Estado">
+                <option>Selecione a categoria</option>
+                <option value="cat1">Categoria 1</option>
+                <option value="cat2">Categoria 2</option>
+                <option value="cat3">Categoria 3</option>
+                <option value="cat4">Categoria 4</option>
+                <option value="cat5">Categoria 5</option>
+            </select>
+            <label>Estoque</label>
+              <input type="number">
+              </div>
+                 <div class="linha3">
+                    <div class="coluna1">
+                    <label>Situação</label>
+                    <div>
+                        <input type="radio" value="desabilitado" name="notificação">
+                        <span class="desabilitado">Desabilitado</span>
+                    </div>
+                    <div>
+                        <input type="radio" value="desabilitado" name="notificação">
+                        <span class="habilitado">Habilitado</span>
+                      </div>
+                    </div>
+                    <div class="coluna2">
+                        <label>Observações</label>
+                        <textarea name="observacao"></textarea>
+                    </div>
+                    </div>
+
+                    <div class="linha4">
+                        <button id="excluir" type="delete">Excluir</button> 
+                        <button id="cancelar" type="cancel">Cancelar</button>
+                        <button id="salvar" type="save">Salvar</button>  
+                     </div>
+        
+
+
+        </form>
+       
+      </div>
+   </body>
