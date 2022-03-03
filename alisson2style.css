@@ -18,24 +18,53 @@ color:#494B5B;
   
 }
 
+
+
 form input[type="nome"]{
   width:370px;
   height:44px;
   radius: 5px;
+  right: 55px;
   top: 29px;
   margin-right: 5px;
   position: relative;
 
  }  
-form input[type="number"]{
+form input[type="number1"]{
   width:94px;
   height:44px;
   radius: 5px;
+  right: 95px;
   top: 29px;
   margin-right: 8px;
   position: relative;
   
  }  
+ form input[type="number2"]{
+  width:94px;
+  height:44px;
+  radius: 5px;
+  right: 155px;
+  top: 29px;
+  margin-right: 8px;
+  position: relative;
+  
+ }  
+
+ form input[type="number3"]{
+  width:94px;
+  height:44px;
+  radius: 50px;
+  right: 200px;
+  top: 29px;
+  margin-right: 8px;
+  position: relative;
+  
+ }  
+
+ 
+
+
 
 body{
   background: #F0F0F8;
@@ -45,8 +74,10 @@ width:773px;
 height:114px;
 margin-top: 39px;
 margin-left:23px;
-display: flex;
+display:flex;
 }
+
+
 .linha2{
 width:773px;
 height:80px;
@@ -55,6 +86,15 @@ margin-left:23px;
 
 }
 
+form select[name="estado"] {
+  width:370px;
+  height:44px;
+  radius: 5px;
+  right: 200px;
+  top: 29px;
+  margin-right: 5px;
+  position: relative;
+}
 
 .linha3{
 display:flex;
@@ -103,17 +143,17 @@ input[type="radio"]{
 textarea{
   width: 542px;
   height: 150px;
-  margin-top: px;
+  margin-top: 5px;
 }
 .linha3 .coluna1 span.desabilitado{
-  background: #FFF5F6;
+  background: #e2c7ca;
   color:#DB0015;
 
 
 }
 .linha3 .coluna1 span.habilitado{
-  background: #EAF3FB;
-  color:#0085FF;
+  background: #97f59b;
+  color:hsl(143, 56%, 42%);
 }
 
 .linha3 .coluna1 span{
